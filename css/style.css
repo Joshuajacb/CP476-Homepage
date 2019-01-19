@@ -1,0 +1,75 @@
+body {
+
+  font-family: Oswald, Helvetica, Arial, sans-serif;
+
+}
+
+hr {
+
+  max-width: 50px;
+  border-color: #f05f40;
+  border-width: 3px;
+
+}
+
+hr.light {
+
+  border-color: #fff;
+
+}
+
+a {
+
+  color: #1F64F0;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+a:hover,
+a:focus {
+  
+  color: #1F64F0;
+
+}
+
+html h1, body h1,
+html h2, body h2, 
+html h3, body h3,
+html h4, body h4,
+html h5, body h5 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0px;
+  letter-spacing: 2px;
+  color: #555555;
+}
+
+p {
+
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+
+}
+
+.header-content {
+  margin-top: 80px;
+}
+
+.main-content h3 {
+  margin: 15px 0;
+}
+.bio {
+  margin: 15px 0;
+}
+
+p.courses {
+  text-decoration: italic;
+}
+ol.course-list {
+  width: 100px;
+  margin: auto;
+
+}
